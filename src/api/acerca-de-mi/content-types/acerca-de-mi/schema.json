@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acerca_de_mis",
+  "info": {
+    "singularName": "acerca-de-mi",
+    "pluralName": "acerca-de-mis",
+    "displayName": "Acerca De Mi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Foto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Texto": {
+      "type": "richtext"
+    },
+    "Informacion": {
+      "type": "richtext"
+    }
+  }
+}
